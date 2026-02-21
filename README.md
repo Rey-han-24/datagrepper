@@ -18,9 +18,12 @@ To get started, run the following commands to install the Vagrant and Virtualiza
     $ sudo systemctl start libvirtd
 
 ### Checkout and Provision
-Next, check out the datagrepper code and run vagrant up:
+Next, check out the datagrepper and datanommer code (as sibling directories) and run vagrant up:
 
+    $ mkdir fedora-infra-dev
+    $ cd fedora-infra-dev
     $ git clone https://github.com/fedora-infra/datagrepper
+    $ git clone https://github.com/fedora-infra/datanommer
     $ cd datagrepper
     $ vagrant up
 
