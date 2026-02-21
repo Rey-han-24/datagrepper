@@ -1,6 +1,6 @@
 # datagrepper
 
-Datagrepper is a web application and JSON API to retrieve historical messages sent via Fedora Messaging. [Datanommer](https://github.com/fedora-infra/datanommer/) is a separate project and service that consumes messages from the Fedora Messaging queue and puts them in a database. These messages is what datagrepper queries. 
+Datagrepper is a web application and JSON API to retrieve historical messages sent via Fedora Messaging. [Datanommer](https://github.com/fedora-infra/datanommer/) is a separate project and service that consumes messages from the Fedora Messaging queue and puts them in a database. These messages are what datagrepper queries. 
 
 Datagrepper is currently running in production at https://apps.fedoraproject.org/datagrepper/
 
